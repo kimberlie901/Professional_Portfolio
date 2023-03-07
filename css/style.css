@@ -1,0 +1,79 @@
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 300px; */
+}
+h1 {
+    text-align: center;
+    color: pink;
+    text-decoration-line:underline; 
+    text-decoration-color: black;
+
+}
+
+a { 
+    display: block;
+    padding: 10px;
+    color: pink;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: pink;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+h3 {
+    text-align: center;
+    color: pink;
+    text-decoration-line: underline;
+    text-decoration-color: pink;
+}
+
+h4 {
+    text-align: center;
+    color: pink;
+    text-decoration-line: underline;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li {
+    /* float: left;     */
+    padding: 5px 0px;
+}
+
+li a {
+    display: block;
+    color: pink;
+    background-color: black;
+    text-align: center;
+    padding: auto;
+    text-decoration: underline;
+}
+
+/* changed the color to when user hovers */
+li a:hover {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
