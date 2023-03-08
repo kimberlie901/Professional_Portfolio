@@ -3,7 +3,7 @@ body {
 }
 
 img {
-    width: 25vw;
+    width: 20vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -76,4 +76,56 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#horiseon {
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#ballons {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#watercolor {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#macrons {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workplace {
+    width: 17vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#code  {
+    width: 17vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
