@@ -138,25 +138,14 @@ ul {
     margin-right: auto;
 }
 
-.fadein img{
+.fadein img {
     opacity: 0.5;
-    transition: 5s ease;
-    animation: ben 10s infinite;
-}
-
-@keyframes ben{
-    0%{
-        margin-left: 0;
-    }
-    100%{
-        margin-left: 75vw;
-    }
+    transition: 1s ease;
 }
 
 .fadein img:hover {
     opacity: 1;
-    filter: grayscale(100);
-    transition: 5s ease;
+    transition: 1s ease;
 }
 
 figcaption {
@@ -164,6 +153,14 @@ figcaption {
     caption-side: top;
 }
 
-section a img:hover {
-    width: 75vw;
+section a img{ 
+    opacity: 0.5;
+    transition: 1s ease
 }
+
+section a img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+    
