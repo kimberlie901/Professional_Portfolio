@@ -1,17 +1,18 @@
 body {
-    background-color: whitesmoke;
+    background-color: #fbe6e9;
 }
 
 img {
-    width: 20vw;
+    width: 15vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20%
     /* height: 300px; */
 }
 h1 {
     text-align: center;
-    color: pink;
+    color: #8F001B;
     text-decoration-line:underline; 
     text-decoration-color: black;
 
@@ -20,27 +21,27 @@ h1 {
 a { 
     display: block;
     padding: 10px;
-    color: pink;
+    color: #8F001B;
     text-decoration: none;
 }
 
 h2 {
     text-align: center;
-    color: pink;
+    color: #8F001B;
     text-decoration-line: underline;
     text-decoration-color: black;
 }
 
 h3 {
     text-align: center;
-    color: pink;
+    color: #8F001B;
     text-decoration-line: underline;
-    text-decoration-color: pink;
+    text-decoration-color: #8F001B;
 }
 
 h4 {
     text-align: center;
-    color: pink;
+    color: #8F001B;
     text-decoration-line: underline;
     text-decoration-line: underline;
     text-decoration-color: black;
@@ -58,7 +59,7 @@ li {
     padding: 5px 0px;
 }
 
-li a {
+nav li a {
     display: block;
     color: pink;
     background-color: black;
@@ -128,4 +129,41 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#desk {
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadein img{
+    opacity: 0.5;
+    transition: 5s ease;
+    animation: ben 10s infinite;
+}
+
+@keyframes ben{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 75vw;
+    }
+}
+
+.fadein img:hover {
+    opacity: 1;
+    filter: grayscale(100);
+    transition: 5s ease;
+}
+
+figcaption {
+    display: table-row;
+    caption-side: top;
+}
+
+section a img:hover {
+    width: 75vw;
 }
