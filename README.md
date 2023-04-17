@@ -2,23 +2,25 @@
 
 ## Description
 
-This assignment was created to not only show some of my HTML and CSS skills but to start to make a portfolio to show future employeers and other peers in my field. It contains a portfolio that contains some of the projects I have worked and contact information to get in touch with me. 
+This respository is an example of a simple starter portfolio website
 
 
 ![Portfolio Screenshot](css/portfolioscreenshot.jpg)
 
-[Deployed Application](https://kimberlie901.github.io/myScene-myPortfolio/)
+## Technologies Used 
 
-## Installation
+- Visual Studio Code
+- HTML
+- CSS 
 
-N/A
+## Websites
 
-## Usage
+[Deployed Application](https://kimberlie901.github.io/Professional_Portfolio/)
+[Deployed Application](https://github.com/kimberlie901/Professional_Portfolio)
 
-N/A
 
 ## License
 
-Please refer to the LICENSE in the repo 
+Please refer to the LICENSE in the repo. Copyright (c) Kimberlie Guillaume. All rights reserved.
 
 
