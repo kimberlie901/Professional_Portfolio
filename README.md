@@ -15,8 +15,8 @@ This respository is an example of a simple starter portfolio website
 
 ## Websites
 
-[Deployed Application](https://kimberlie901.github.io/Professional_Portfolio/)
-[Deployed Application](https://github.com/kimberlie901/Professional_Portfolio)
+- [Deployed Application](https://kimberlie901.github.io/Professional_Portfolio/)
+- [Github](https://github.com/kimberlie901/Professional_Portfolio)
 
 
 ## License
